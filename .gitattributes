@@ -1,0 +1,11 @@
+
+public/** linguist-vendored
+dist/** linguist-vendored
+assets/** linguist-vendored
+vendor/** linguist-vendored
+
+
+*.min.css linguist-vendored
+*.min.js  linguist-vendored
+*.map     linguist-vendored
+
