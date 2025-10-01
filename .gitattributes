@@ -1,11 +1,22 @@
+# --- Ignorer JS/TS (et fichiers dérivés) dans les stats Linguist
+*.js        linguist-vendored
+*.mjs       linguist-vendored
+*.cjs       linguist-vendored
+*.ts        linguist-vendored
+*.tsx       linguist-vendored
+*.map       linguist-vendored
+*.min.js    linguist-vendored
 
-public/** linguist-vendored
-dist/** linguist-vendored
-assets/** linguist-vendored
-vendor/** linguist-vendored
+# --- Ignorer les bundles/front compilés (adapte aux dossiers réels du projet)
+public/**   linguist-vendored
+dist/**     linguist-vendored
+build/**    linguist-vendored
+assets/js/** linguist-vendored
+resources/js/** linguist-vendored
+public/js/**    linguist-vendored
+node_modules/**  linguist-vendored
+vendor/**        linguist-vendored
 
-
-*.min.css linguist-vendored
-*.min.js  linguist-vendored
-*.map     linguist-vendored
-
+# (Optionnel) Si tu as des templates PHP dans un dossier atypique, force la langue :
+# resources/views/** linguist-language=PHP
+# app/**             linguist-language=PHP
