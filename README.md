@@ -76,14 +76,14 @@ Create a new database named coffee_db
 Import the provided coffee_db.sql file
 
 ### 4.Run the Frontend (React)
-````
+```
 cd frontend
 npm install
 npm run dev
 ```
 
 ---
-🧠 How It Works
+### 🧠 How It Works
 
 Login as Admin or Waiter
 
@@ -101,7 +101,7 @@ Admin can export or view sales analytics anytime
 
 ---
 
-💡 Future Improvements
+### 💡 Future Improvements
 
 ✅ Add role-based analytics dashboards
 
@@ -115,9 +115,10 @@ Admin can export or view sales analytics anytime
 
 ---
 
-🧑‍💻 Author
+### 🧑‍💻 Author
 
-Zakaria [Your Last Name]
+Zakaria sabiri
+
 📍 Applied AI & Web Technologies
 💬 “Building smart, human-centered café systems.”
 
