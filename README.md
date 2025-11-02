@@ -200,4 +200,4 @@ All endpoints exchange JSON; image uploads accept `multipart/form-data`.
 3. Include screenshots or recordings for UI changes.
 
 ## 📜 License
-No explicit license is provided. Add one before redistributing or deploying to production.
+MIT License © 2025 [Zaka41a]
