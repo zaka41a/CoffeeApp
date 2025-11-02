@@ -1,0 +1,32 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Coffee Cup -->
+  <path d="M50 80 L50 140 Q50 150 60 150 L140 150 Q150 150 150 140 L150 80 Z" fill="#6B4423" stroke="#3E2723" stroke-width="3"/>
+
+  <!-- Cup Handle -->
+  <path d="M150 90 Q170 90 170 110 Q170 130 150 130" fill="none" stroke="#6B4423" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Coffee Inside -->
+  <ellipse cx="100" cy="85" rx="48" ry="8" fill="#8B4513"/>
+
+  <!-- Steam Lines -->
+  <path d="M70 60 Q65 50 70 40" fill="none" stroke="#D4A574" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M100 55 Q95 45 100 35" fill="none" stroke="#D4A574" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M130 60 Q135 50 130 40" fill="none" stroke="#D4A574" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Saucer -->
+  <ellipse cx="100" cy="155" rx="60" ry="10" fill="#8B4513"/>
+  <ellipse cx="100" cy="153" rx="58" ry="9" fill="#A0826D"/>
+
+  <!-- Coffee Beans -->
+  <g transform="translate(30, 165)">
+    <ellipse cx="0" cy="0" rx="6" ry="9" fill="#6B4423" transform="rotate(30)"/>
+    <path d="M-2 -5 Q0 0 -2 5" fill="none" stroke="#3E2723" stroke-width="1"/>
+  </g>
+  <g transform="translate(170, 165)">
+    <ellipse cx="0" cy="0" rx="6" ry="9" fill="#6B4423" transform="rotate(-30)"/>
+    <path d="M2 -5 Q0 0 2 5" fill="none" stroke="#3E2723" stroke-width="1"/>
+  </g>
+
+  <!-- Text -->
+  <text x="100" y="190" font-family="'Poppins', sans-serif" font-size="22" font-weight="800" fill="#6B4423" text-anchor="middle">CoffeApp</text>
+</svg>
